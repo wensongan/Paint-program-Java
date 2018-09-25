@@ -1,0 +1,11 @@
+import javax.swing.JFrame;
+ 
+public class PaintProgram {
+    public static void main( String[] args ) {
+        JFrame appWindow = new JFrame( "Paint Program" );
+        
+        appWindow.setSize( 320, 240 );
+        appWindow.setDefaultCloseOperation( JFrame.EXIT_ON_CLOSE );
+        appWindow.setVisible( true );
+    }    
+}
